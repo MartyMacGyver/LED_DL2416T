@@ -27,8 +27,8 @@ const int PIN_SE = 7;
 
 const int DELAY_SHIFT = 0;
 const int DELAY_LATCH = 0;
-const int DELAY_CURSOR = 10;
-const int DELAY_CHAR = 30;
+const int DELAY_CURSOR = 15;
+const int DELAY_CHAR = 50;
 const int MAX_CHARS = 8;  // Adjust accordingly - I used a 74HC595 to multiplex them
 
 void setup()
